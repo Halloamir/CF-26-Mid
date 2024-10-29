@@ -1,0 +1,119 @@
+@import url("https://fonts.cdnfonts.com/css/iranyekan");
+
+:root {
+  --primary-color: #39ff14;
+  --Secondary-color: #30384d;
+  --Secondary-light: #454c5f;
+  --Secondary-dark: #1b1b1b;
+  --Secondary-darker: #101010;
+  --white: #fff;
+  --gray1: #d9d9d9;
+  --gray2: #757575;
+  --gray3: #292929;
+  --gift-special: #c61db5;
+  --gift-gold: #ffc300;
+  --gift-silver: #d9d9d9;
+  --gift-bronze: #c37417;
+}
+body {
+  font-family: "IRANYekan", sans-serif;
+  background-color: var(--Secondary-darker);
+}
+h1 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 67.64px;
+  color: var(--white);
+}
+h2 {
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 50.73px;
+}
+h3 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 33.82px;
+}
+h4 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 33.82px;
+}
+h5 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 33.82px;
+}
+p {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  color: var(--white);
+}
+.btn.light {
+  background-color: var(--primary-color);
+  color: var(--Secondary-darker);
+  cursor: pointer;
+  font-family: "IRANYekan", sans-serif;
+  padding: 10px 40px;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  margin-right: 15px;
+}
+.btn.dark {
+  background-color: transparent;
+  color: var(--white);
+  border: 1px solid var(--primary-color);
+  cursor: pointer;
+  font-family: "IRANYekan", sans-serif;
+  padding: 10px 40px;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  margin-right: 15px;
+}
+.radius {
+  border-radius: 10px;
+}
+.box-secondary {
+  background-color: var(--Secondary-color);
+  border-radius: 10px;
+}
+.box-dark {
+  background-color: var(--Secondary-dark);
+  border-radius: 10px;
+  border: 1px solid var(--gray1);
+}
+.flex {
+  display: flex;
+}
+.flex-revers {
+  flex-direction: row-reverse;
+}
+.center {
+  justify-content: center;
+  align-items: center;
+}
+.flex-sb {
+  justify-content: space-between;
+}
+header .fluid-container {
+  background-color: var(--gray3);
+  margin-bottom: 45px;
+}
+.nav__loggin button {
+  margin: 25px 0;
+}
+.content__text {
+  width: 50%;
+}
+
+.content__text p {
+  padding: 35px 0;
+}
+.content__text p span {
+  color: var(--primary-color);
+}

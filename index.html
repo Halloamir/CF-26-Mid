@@ -1,11 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="columns.css" />
+    <link href="https://fonts.cdnfonts.com/css/iranyekan" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Midterm-Exam Amir</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="fluid-container">
+        <div class="container">
+          <div class="row">
+            <div class="col col-12">
+              <div class="nav__loggin flex flex-revers">
+                <button class="btn light radius">ورود</button>
+                <button class="btn dark radius">ثبت‌ نام</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col col-12">
+            <div class="header__content flex flex-sb">
+              <div class="content__text">
+                <h1>کلاه سفیدت رو سرت بذار</h1>
+                <p>
+                  با شناسایی آسیب پذیری ها، بر اساس شدت آسیب پذیری کشف‌شده،
+                  <span>پاداش</span> دریافت کنید. گزارش‌های خود را ارسال کنید،
+                  با تیم ما همکاری کنید و نقش مهمی در ایجاد یک محیط دیجیتال
+                  امن‌تر برای همه ایفا کنید.
+                </p>
+                <form action="">
+                  <!-- <label for="chose">انتخاب قلمرو</label> -->
+                  <select name="chose" id="chose">
+                    <option value="قلمرو1">انتخاب قلمرو</option>
+                    <option value="قلمرو1">قلمرو 1 امیر</option>
+                    <option value="قلمرو2">قلمرو 2 امیر</option>
+                    <option value="قلمرو3">قلمرو 3 امیر</option>
+                  </select>
+                  <input
+                    class="btn light radius"
+                    type="submit"
+                    value="ارسال آسیب پذیری"
+                  />
+                </form>
+              </div>
+              <div class="content__image">
+                <img src="assets/imgs/header-laptop.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+  </body>
 </html>
