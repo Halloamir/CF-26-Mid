@@ -29,21 +29,25 @@ h2 {
   font-size: 38px;
   font-weight: 700;
   line-height: 50.73px;
+  color: var(--white);
 }
 h3 {
   font-size: 24px;
   font-weight: 700;
   line-height: 33.82px;
+  color: var(--white);
 }
 h4 {
   font-size: 20px;
   font-weight: 700;
   line-height: 33.82px;
+  color: var(--white);
 }
 h5 {
   font-size: 16px;
   font-weight: 700;
   line-height: 33.82px;
+  color: var(--white);
 }
 p {
   font-size: 14px;
@@ -89,6 +93,12 @@ p {
   border-radius: 10px;
   border: 1px solid var(--gray1);
 }
+.abs {
+  position: absolute;
+}
+.rel {
+  position: relative;
+}
 .flex {
   display: flex;
 }
@@ -105,9 +115,24 @@ p {
 .flex-sb {
   justify-content: space-between;
 }
-header .fluid-container {
+.flex-start {
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.marg-seprator {
+  margin-bottom: 100px;
+}
+.sm-dis {
+  margin-bottom: 10px;
+}
+.header__shadow {
+  top: 100px;
+  left: 391px;
+  z-index: -1;
+  user-select: none;
+}
+header .container-fluid {
   background-color: var(--gray3);
-  margin-bottom: 45px;
 }
 .gap {
   gap: 20px;
@@ -118,14 +143,12 @@ header .fluid-container {
 .content__text {
   width: 45%;
 }
-
 .content__text p {
   padding: 35px 0;
 }
 .content__text p span {
   color: var(--primary-color);
 }
-
 .content__text form select {
   width: 90%;
   background-color: var(--Secondary-color);
@@ -140,4 +163,27 @@ header .fluid-container {
 }
 .content__text form input.btn {
   padding: 10px 15px;
+}
+.content__image img.abs {
+  left: -8px;
+  top: 250px;
+}
+.main__card {
+  text-align: center;
+  padding: 18px 0;
+}
+.card__icon span {
+  background-color: var(--Secondary-light);
+  border-radius: 100%;
+  padding: 7px;
+}
+section.match {
+  background-color: var(--Secondary-dark);
+}
+.section_title {
+  padding: 80px 0px;
+  text-align: center;
+}
+.dashed {
+  border-bottom: 2px dashed var(--gray1);
 }

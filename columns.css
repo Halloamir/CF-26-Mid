@@ -33,7 +33,7 @@
 }
 
 .col {
-  float: left;
+  float: right;
   box-sizing: border-box;
   padding-left: 0.75rem;
   padding-right: 0.75rem;
