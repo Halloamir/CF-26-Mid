@@ -122,6 +122,9 @@ p {
 .marg-seprator {
   margin-bottom: 100px;
 }
+.marg2-seprator {
+  margin-bottom: 50px;
+}
 .sm-dis {
   margin-bottom: 10px;
 }
@@ -167,6 +170,14 @@ header .container-fluid {
 .content__image img.abs {
   left: -8px;
   top: 250px;
+}
+section.gift {
+  background-color: var(--Secondary-dark);
+  height: 50px;
+}
+.gift-cards {
+  top: -60px;
+  width: 100%;
 }
 .main__card {
   text-align: center;
