@@ -125,6 +125,9 @@ p {
 .marg2-seprator {
   margin-bottom: 50px;
 }
+.marg-insider {
+  margin: 50px 0;
+}
 .sm-dis {
   margin-bottom: 10px;
 }
@@ -204,8 +207,17 @@ section.match {
   top: 30px;
 }
 .match__card,
-card__icon,
-span {
+.card__icon span {
   display: flex;
   z-index: 1;
+}
+section.banner .container-fluid {
+  background-color: var(--Secondary-color);
+  background-image: url(/assets/imgs/overlay.svg);
+  overflow: hidden;
+  text-align: center;
+}
+.banner__info h4 span {
+  color: var(--primary-color);
+  font-family: "IRANYekan";
 }
