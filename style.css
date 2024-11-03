@@ -128,6 +128,9 @@ p {
 .sm-dis {
   margin-bottom: 10px;
 }
+.md-dis {
+  margin-bottom: 25px;
+}
 .header__shadow {
   top: 100px;
   left: 391px;
@@ -196,5 +199,13 @@ section.match {
   text-align: center;
 }
 .dashed {
-  border-bottom: 2px dashed var(--gray1);
+  border-bottom: 2px dashed var(--white);
+  width: 80%;
+  top: 30px;
+}
+.match__card,
+card__icon,
+span {
+  display: flex;
+  z-index: 1;
 }
