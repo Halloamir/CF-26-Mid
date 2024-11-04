@@ -55,6 +55,9 @@ p {
   line-height: 22px;
   color: var(--white);
 }
+span {
+  color: var(--primary-color);
+}
 ::selection {
   background-color: var(--primary-color);
   color: var(--Secondary-darker);
@@ -87,6 +90,7 @@ p {
 .box-secondary {
   background-color: var(--Secondary-color);
   border-radius: 10px;
+  padding: 17px;
 }
 .box-dark {
   background-color: var(--Secondary-dark);
@@ -119,6 +123,9 @@ p {
   justify-content: flex-start;
   align-items: flex-start;
 }
+.flex-grow {
+  flex-grow: 1;
+}
 .marg-seprator {
   margin-bottom: 100px;
 }
@@ -128,11 +135,20 @@ p {
 .marg-insider {
   margin: 50px 0;
 }
+.marg-right {
+  margin-right: 80px;
+}
 .sm-dis {
   margin-bottom: 10px;
 }
 .md-dis {
   margin-bottom: 25px;
+}
+.w-100 {
+  width: 100%;
+}
+.w-50 {
+  width: 50%;
 }
 .header__shadow {
   top: 100px;
@@ -214,8 +230,8 @@ section.match {
 section.banner .container-fluid {
   background-color: var(--Secondary-color);
   background-image: url(/assets/imgs/overlay.svg);
-  overflow: hidden;
   text-align: center;
+  background-size: cover;
 }
 .banner__info h4 span {
   color: var(--primary-color);
