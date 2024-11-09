@@ -110,6 +110,7 @@ span {
   flex-direction: row-reverse;
 }
 .flex-column {
+  display: flex;
   flex-direction: column;
 }
 .center {
@@ -118,6 +119,9 @@ span {
 }
 .flex-sb {
   justify-content: space-between;
+}
+.flex-ar {
+  justify-content: space-around;
 }
 .flex-start {
   justify-content: flex-start;
@@ -138,6 +142,12 @@ span {
 .marg-right {
   margin-right: 80px;
 }
+.mrg-rl {
+  margin: 0px 40px;
+}
+.padd-top {
+  padding-top: 80px;
+}
 .sm-dis {
   margin-bottom: 10px;
 }
@@ -149,6 +159,9 @@ span {
 }
 .w-50 {
   width: 50%;
+}
+.txt-center {
+  text-align: center;
 }
 .header__shadow {
   top: 100px;
@@ -236,4 +249,44 @@ section.banner .container-fluid {
 .banner__info h4 span {
   color: var(--primary-color);
   font-family: "IRANYekan";
+}
+/* section.calc .container-fluid {
+  background-color: var(--Secondary-dark);
+} */
+.calc__card .card__icon span {
+  background-color: var(--Secondary-darker);
+  margin-left: 20px;
+}
+.calc__info {
+  top: 150px;
+  background-color: var(--Secondary-dark);
+}
+.calc__cards {
+  left: 0;
+}
+section.hacker.container-fluid {
+  background-color: var(--Secondary-dark);
+}
+.aside__images .pic1 {
+  z-index: 1;
+  top: 46px;
+}
+.aside__images .pic2 {
+  top: 99px;
+}
+.aside__table {
+  color: var(--white);
+  background-color: var(--Secondary-darker);
+  border-radius: 10px;
+  text-align: start;
+}
+.aside__table tr {
+  border-bottom: 0.2px solid var(--white);
+}
+.aside__table tr:last-child {
+  border: none;
+}
+.aside__table td:nth-child(even) {
+  text-align: end;
+  padding: 18px 0px;
 }
